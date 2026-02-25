@@ -21,13 +21,6 @@ typedef struct s_stack
 	int				index;
 }				t_stack;
 
-typedef struct s_min_cost
-{
-	int	pos;
-	int	lower_half_pos;
-	int	upper_half_pos;
-}				t_min_cost;
-
 typedef struct s_bench
 {
 	float	disorder;

@@ -22,7 +22,7 @@ void	medium_sort(t_stack **a, t_stack **b, t_bench *detail)
 		return ;
 	chunk = detail->size / 30;
 	if (detail->size == 100)
-		chunk = detail->size / 11;
+		chunk = detail->size / 16;
 	index = 0;
 	while (*a)
 	{
