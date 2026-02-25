@@ -25,4 +25,5 @@ To run this project you just have to follow the steps bellow (we assume you are 
 - [Push_Swap: The least amount of moves with two stacks](https://medium.com/@jamierobertdawson/push-swap-the-least-amount-of-moves-with-two-stacks-d1e76a71789a)
 ## Tester
 - [Push-swap-tester by julien-ctx/](https://github.com/julien-ctx/push-swap-tester)
+- [Push-swap-visualizer](https://github.com/o-reo/push_swap_visualizer.git)
 ## AI Usage
