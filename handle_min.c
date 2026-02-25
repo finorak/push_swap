@@ -67,7 +67,7 @@ void	handle_min(t_stack **a, t_stack **b, int size, t_bench *detail)
 	{
 		put_min_top(a, detail);
 		if (stack_is_sorted(*a) && stack_size(*a) == size)
-			return ;
+			break ;
 		push(a, b, 'b', detail);
 	}
 	index = (size - 1) / 2;
