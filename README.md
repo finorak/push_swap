@@ -15,7 +15,7 @@ To run this project you just have to follow the steps bellow (we assume you are 
 - The output will then be put on the standard output
 
 # Ressources
-## Youtube:
+## Youtube
 - [7.10 Radix Sort/Bucket Sort in Data Structure | Sorting Algorithm](https://www.youtube.com/watch?v=JMlYkE8hGJM)
 - [7.7 Merge Sort in Data Structure | Sorting Algorithms| DSA Full Course](https://www.youtube.com/watch?v=jlHkDBEumP0)
 - [push_swap : a performant sorting algorithm using 2 stacks (100-630 moves | 500-5470 moves)](https://www.youtube.com/watch?v=OaG81sDEpVk)
@@ -48,3 +48,6 @@ AI was used for the following tasks:
  Explaining why the norminette counts blank lines and closing braces toward the 25-line function limit, and why static functions still count toward the 5-function-per-file limit.
 
 	All code in this project was written, understood, and validated by both team members. We can fully explain every function and algorithmic choice during the defense.
+- README Structuring : Helped organize the sections and translation of this README.
+- Understanding the command : to understand the how the command where used we relied on the document we provided in [Document](#document) and [Youtube](#youtube) sections
+in which it gave us a ton of example in how to use it.
