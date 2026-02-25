@@ -94,7 +94,7 @@ AI was used for the following tasks:
 **Note Used For:**
 - Direct code generation for algorithm implementations
 - Writing core sorting logic
-- The sorting algorithms (selection sort, medium sort, complex sort)
+- The sorting algorithms
 
 **Understanding the command :** to understand the how the command where used we relied on the document we provided in [Document](#document) and [Youtube](#youtube) 
 sections in which it gave us a ton of example in how to use it.
