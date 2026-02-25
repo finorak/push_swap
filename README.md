@@ -28,6 +28,6 @@ To run this project you just have to follow the steps bellow (we assume you are 
 - [Push-swap-visualizer](https://github.com/o-reo/push_swap_visualizer.git)
 ## AI Usage
 AI was used for the following tasks:
-**README Structuring :** Helped organize the sections and translation of this README.
-**Understanding the command** : to understand the how the command where used we relied on the document we provided in [Document](#document) and [Youtube](#youtube) sections
+- **README Structuring :** Helped organize the sections and translation of this README.
+- **Understanding the command** : to understand the how the command where used we relied on the document we provided in [Document](#document) and [Youtube](#youtube) sections
 in which it gave us a ton of example in how to use it.
