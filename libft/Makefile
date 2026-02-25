@@ -1,5 +1,7 @@
 NAME = libft.a
 
+INCLUDE = -I.
+
 SRCS =  ft_strlen.c\
 		ft_atoi.c\
 		ft_bzero.c\
@@ -66,7 +68,7 @@ $(NAME): $(OBJS)
 	ar rcs $(NAME) $(OBJS)
 
 %.o : %.c
-	$(CC) $(CFLAGS) -c $< -o $@
+	$(CC) $(CFLAGS) $(INCLUDE) -c $< -o $@
 
 clean :
 	rm -f $(OBJS)
