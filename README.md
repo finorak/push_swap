@@ -99,8 +99,12 @@ sections in which it gave us a ton of example in how to use it.
 - Argument parsing.
 - Explaining the algorithm.
 - Handled some optimisation.
+- The get_next_line (for the bonus that **maratojo** did).
+- The ft_printf function.
 ### **maratojo :**
 - The split function.
+- Provided the libft
 - Handling value that exceed the range of int.
 - Sort util file and the function within it
 - Strategy handling.
+- The checker bonus.
