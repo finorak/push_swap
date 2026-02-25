@@ -92,15 +92,15 @@ sections in which it gave us a ton of example in how to use it.
 
 # Contributions
 
-- finorako:
-- - The core structure, like using struct instead of an array.
-- - The bench_mark function that display the details (like the number of instructions, count of each instructions).
-- - Error handler.
-- - Argument parsing.
-- - Explaining the algorithm.
-- - Handled some optimisation.
-- maratojo
-- - The split function.
-- - Handling value that exceed the range of int.
-- - Sort util file and the function within it
-- - Strategy handling.
+**finorako :**
+- The core structure, like using struct instead of an array.
+- The bench_mark function that display the details (like the number of instructions, count of each instructions).
+- Error handler.
+- Argument parsing.
+- Explaining the algorithm.
+- Handled some optimisation.
+**maratojo :**
+- The split function.
+- Handling value that exceed the range of int.
+- Sort util file and the function within it
+- Strategy handling.
