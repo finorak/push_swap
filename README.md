@@ -54,8 +54,8 @@ How it works:
 - - We first of all divide it into chunk (we went with size / 16) for the average case but went with 30 if the size is equal to 500 (where here size is the size of the stack), we choose those number arbitrary after several test case (the document we followed suggest going for size / 11 but after changing that value to 
 our liking we noticed that with those number we had a lot of optimisation in which we then go with those number).
 - - For every node in the stack, we look for it's index if it's less or equal to the variable index we created an example is given bellow: `(*stack)->index <= index`
-if it's true we push to b and rotate it, why ?Because with that we will put the minimum value int b (as if starting a new chunck) and then rotate b, to keep that value in the middle of stack b
-- - If the value is not the minimum, we check if the value is in that range (chunk + index) if yes we just push it into b to put that value at the top of the stack or the bottom of stack a.
+if it's true we push to b and rotate it, why ?Because with that we will put the minimum value into b (as if starting a new chunck) and then rotate b, to keep that value in the middle of stack b
+- - If the value is not the minimum, we check if the value is in that range (chunk + index) `(*stack)-> index <= range + index` if yes we just push it into b to put that value at the top of the stack or the bottom of stack a.
 - - If all those test fail, we just rotate a to check for the next value.
 - - After doing those operations we just push the remaining into the stack a by checking the max value (as we said before the max value is weather at the top/bottom of the stack) and do a push a until there is no node in b anymore.
 
