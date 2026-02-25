@@ -71,7 +71,8 @@ if it's true we push to b and rotate it, why ?Because with that we will put the 
 - After doing those operations we just push the remaining into the stack a by checking the max value (as we said before the max value is weather at the top/bottom of the stack) and do a push a until there is no node in b anymore.
 
 ## Adaptive
-As said by the subject the Adaptive one will choose the best approach based on the disorder metric (how sorted is the list)
+As said by the subject the Adaptive one will choose the best approach based on the disorder metric (how sorted is the list).
+So after calculating the disorder we then choose based on the table bellow :
 | O(n2) | O(n√n) | O(nlogn) |
 | --| -- | -- |
 | for disorder < 20% | for 20% <= disorder <= 50% | for disorder > 50% |
