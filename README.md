@@ -44,11 +44,15 @@ AI was used for the following tasks:
 - Writing core sorting logic
 - The sorting algorithms (selection sort, medium sort, complex sort)
 
+<<<<<<< HEAD
 **Concept Clarification:**
  Explaining why the norminette counts blank lines and closing braces toward the 25-line function limit, and why static functions still count toward the 5-function-per-file limit.
 
 - README Structuring : Helped organize the sections and translation of this README.
 - Understanding the command : to understand the how the command where used we relied on the document we provided in [Document](#document) and [Youtube](#youtube) sections
+=======
+**Understanding the command :** to understand the how the command where used we relied on the document we provided in [Document](#document) and [Youtube](#youtube) sections
+>>>>>>> refs/remotes/origin/main
 in which it gave us a ton of example in how to use it.
 
 # Explanation of the Algorithms
