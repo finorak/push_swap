@@ -26,10 +26,25 @@ To run this project you just have to follow the steps bellow (we assume you are 
 ## Tester
 - [Push-swap-tester by julien-ctx/](https://github.com/julien-ctx/push-swap-tester)
 - [Push-swap-visualizer](https://github.com/o-reo/push_swap_visualizer.git)
+
 ## AI Usage
-
 AI was used for the following tasks:
-**README Structuring :** Helped organize the sections and translation of this README.
 
-**Debugging Assistance :**
--
+**Research and learning:**
+- Used AI to understand algorithmic complexity concepts (Big O notation).
+- Clarified stack manipulation techniques
+
+**Documentation Assistance:**
+- Used AI to structure this README.
+- Translated content from French to English.
+- Formatted tables and code blocks.
+
+**Note Used For:**
+- Direct code generation for algorithm implementations
+- Writing core sorting logic
+- The sorting algorithms (selection sort, medium sort, complex sort)
+
+**Concept Clarification:**
+ Explaining why the norminette counts blank lines and closing braces toward the 25-line function limit, and why static functions still count toward the 5-function-per-file limit.
+
+	All code in this project was written, understood, and validated by both team members. We can fully explain every function and algorithmic choice during the defense.
