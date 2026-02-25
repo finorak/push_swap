@@ -12,13 +12,15 @@
 
 #include "push_swap.h"
 
-void	selection_sort(t_stack **a, t_stack **b, t_bench *detail)
+void	simple_sort(t_stack **a, t_stack **b, t_bench *detail)
 {
 	if (!a || !b || stack_is_sorted(*a))
 		return ;
 	while (*a && (*a)->next)
 	{
 		put_min_top(a, detail);
+		if (stack_is_sorted(*a))
+			break ;
 		push(a, b, 'b', detail);
 	}
 	while (*b)

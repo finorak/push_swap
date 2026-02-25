@@ -7,7 +7,7 @@ INCLUDES = -I.
 SRCS = main.c utils.c data_free.c error_handler.c \
 	   push_swap.c push_swap_command.c stack_utils.c \
 	   handle_three.c sort_utils.c medium_sort.c \
-	   handle_min.c disorder_metric.c selection_sort.c \
+	   handle_min.c disorder_metric.c simple_sort.c \
 	   bench.c ft_strcmp.c complex_sort.c stack_is_sorted.c \
 	   ft_atol.c
 

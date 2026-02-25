@@ -47,7 +47,33 @@ AI was used for the following tasks:
 **Concept Clarification:**
  Explaining why the norminette counts blank lines and closing braces toward the 25-line function limit, and why static functions still count toward the 5-function-per-file limit.
 
-	All code in this project was written, understood, and validated by both team members. We can fully explain every function and algorithmic choice during the defense.
 - README Structuring : Helped organize the sections and translation of this README.
 - Understanding the command : to understand the how the command where used we relied on the document we provided in [Document](#document) and [Youtube](#youtube) sections
 in which it gave us a ton of example in how to use it.
+
+# Explanation of the Algorithms
+There are 4 strategy that was asked to be implemented into this project
+| Simple | Medium | Complex | Adaptive |
+| -- | -- | -- | -- |
+| An algorithm that run on O(n2) time complexity | An algorithm that run on O(n√n) time complexity | An algorithm that run on O(nlogn) time complexity | Will choose the best approach depending on the value of the disorder |
+
+## Simple
+There was a large set of algorithm to choose to do in the simple algorithm but here we have chosen **insertion sort**
+we opted for **insertion sort** because it outperform the other sorting algorithm if the data given is partially sorted which have a time complexity of o(n) in the best case scenario
+which is better than selection sort for example. At worst time scenario we get O(n2).
+How it works, we first of all find the minimum value in the stack a we then rotate a or reverse rotate it (depending on it's position) till it get to the top of the stack a
+we then push it into stack b, till a is sorted or if not sorted at all do those operations till there is only one element in a (which is the biggest element in the stack a at this point)
+after that we can see that b is is sorted in descending order, we then push a till there is no element at all in b.
+And that's how our simple strategy works.
+
+## Medium
+
+
+## Complex
+
+
+## Adaptive
+As said by the subject the Adaptive one will choose the best approach based on the disorder metric (how sorted is the list)
+| O(n2) | O(n√n) | O(nlogn) |
+| --| -- | -- |
+| for disorder < 20% | for 20% <= disorder <= 50% | for disorder > 50% |

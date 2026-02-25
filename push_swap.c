@@ -45,7 +45,7 @@ static void	adaptive(t_stack **a, t_stack **b, t_bench *detail)
 	{
 		detail->time_complexity = "O(n2)";
 		if (!base_algo(a, b, detail))
-			selection_sort(a, b, detail);
+			simple_sort(a, b, detail);
 	}
 	else if (20 <= detail->disorder && detail->disorder <= 50)
 	{
@@ -68,7 +68,7 @@ static void	choose_algo(t_stack **a, t_stack **b, t_bench *detail)
 		detail->time_complexity = "O(n2)";
 		detail->strategy = "Simple";
 		base_algo(a, b, detail);
-		selection_sort(a, b, detail);
+		simple_sort(a, b, detail);
 	}
 	else if (!ft_strcmp(detail->strategy, "medium"))
 	{

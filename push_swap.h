@@ -88,7 +88,7 @@ void			complex_sort(t_stack **a, t_stack **b, t_bench *detail);
 
 void			medium_sort(t_stack **a, t_stack **b, t_bench *detail);
 
-void			selection_sort(t_stack **a, t_stack **b, t_bench *detail);
+void			simple_sort(t_stack **a, t_stack **b, t_bench *detail);
 
 void			get_sorted_arr(t_stack *stack);
 
