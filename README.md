@@ -27,33 +27,6 @@ To run this project you just have to follow the steps bellow (we assume you are 
 - [Push-swap-tester by julien-ctx/](https://github.com/julien-ctx/push-swap-tester)
 - [Push-swap-visualizer](https://github.com/o-reo/push_swap_visualizer.git)
 
-## AI Usage
-AI was used for the following tasks:
-
-**Research and learning:**
-- Used AI to understand algorithmic complexity concepts (Big O notation).
-- Clarified stack manipulation techniques
-
-**Documentation Assistance:**
-- Used AI to structure this README.
-- Translated content from French to English.
-- Formatted tables and code blocks.
-
-**Note Used For:**
-- Direct code generation for algorithm implementations
-- Writing core sorting logic
-- The sorting algorithms (selection sort, medium sort, complex sort)
-
-<<<<<<< HEAD
-**Concept Clarification:**
- Explaining why the norminette counts blank lines and closing braces toward the 25-line function limit, and why static functions still count toward the 5-function-per-file limit.
-
-- README Structuring : Helped organize the sections and translation of this README.
-- Understanding the command : to understand the how the command where used we relied on the document we provided in [Document](#document) and [Youtube](#youtube) sections
-=======
-**Understanding the command :** to understand the how the command where used we relied on the document we provided in [Document](#document) and [Youtube](#youtube) sections
->>>>>>> refs/remotes/origin/main
-in which it gave us a ton of example in how to use it.
 
 # Explanation of the Algorithms
 There are 4 strategy that was asked to be implemented into this project
@@ -81,3 +54,25 @@ As said by the subject the Adaptive one will choose the best approach based on t
 | O(n2) | O(n√n) | O(nlogn) |
 | --| -- | -- |
 | for disorder < 20% | for 20% <= disorder <= 50% | for disorder > 50% |
+
+
+
+## AI Usage
+AI was used for the following tasks:
+
+**Research and learning:**
+- Used AI to understand algorithmic complexity concepts (Big O notation).
+- Clarified stack manipulation techniques
+
+**Documentation Assistance:**
+- Used AI to structure this README.
+- Translated content from French to English.
+- Formatted tables and code blocks.
+
+**Note Used For:**
+- Direct code generation for algorithm implementations
+- Writing core sorting logic
+- The sorting algorithms (selection sort, medium sort, complex sort)
+
+**Understanding the command :** to understand the how the command where used we relied on the document we provided in [Document](#document) and [Youtube](#youtube) sections
+in which it gave us a ton of example in how to use it.
