@@ -18,13 +18,6 @@
 # include <stdarg.h>
 # include <unistd.h>
 
-typedef struct s_container
-{
-	va_list	arg;
-	int		index;
-	int		counter;
-}				t_container;
-
 typedef struct s_list
 {
 	void			*content;
@@ -74,18 +67,4 @@ void	ft_lstdelone(t_list *lst, void (*del)(void*));
 void	ft_lstclear(t_list **lst, void (*del)(void*));
 void	ft_lstiter(t_list *lst, void (*f)(void *));
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
-
-int		ft_printf(const char *str, ...);
-
-void	ft_putnbr(int number, int *counter);
-
-void	ft_putchar(char c, int *counter);
-
-void	print_str(char *str, int *counter);
-
-void	ft_puthex(unsigned int number, char c, int *counter);
-
-void	print_unsigned(unsigned int number, int *counter);
-
-void	print_memory(void *add, int *counter);
 #endif
