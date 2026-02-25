@@ -14,3 +14,9 @@
 ## Tester
 - [Push-swap-tester by julien-ctx/](https://github.com/julien-ctx/push-swap-tester)
 ## AI Usage
+
+AI was used for the following tasks:
+**README Structuring :** Helped organize the sections and translation of this README.
+
+**Debugging Assistance :**
+-
