@@ -29,7 +29,10 @@ To run this project you just have to follow the steps bellow (we assume you are 
 
 
 # Explanation of the Algorithms
-There are 4 strategy that was asked to be implemented into this project
+There are 4 strategy that was asked to be implemented into this project, but the main core is that we use a third stack (where we sort the value in it), we then use that sorted stack and use
+the index we got from the sorted stack (in our case the third stack is an array), and
+place the correct index (because the push swap project only allow non duplicate value so we can use this method) so that we work with 0 - (n - 1) value 
+
 | Simple | Medium | Complex | Adaptive |
 | -- | -- | -- | -- |
 | An algorithm that run on O(n2) time complexity | An algorithm that run on O(n√n) time complexity | An algorithm that run on O(nlogn) time complexity | Will choose the best approach depending on the value of the disorder |
@@ -59,6 +62,7 @@ The complex algorithm is quit particular, in it reused the same logic as the [Me
 Mathematically speaking we do not have an O(nlogn) algorithm but in practice we have an average case scenario of O(nlogn) and a best case scenario of O(n).
 Here we could get in the worst case scenario an O(n2) time complexity buit the 'else if' statement ensure we do not exceed an O(nlogn) time complexity.
 How it works:
+<<<<<<< HEAD
 - - We first of all divide it into chunk (we went with size / 16) for the average case but went with 30 if the size is equal to 500 (where here size is the size of the stack), we choose those number arbitrary after several test case (the document we followed suggest going for size / 11 but after changing that value to
 our liking we noticed that with those number we had a lot of optimisation in which we then go with those number).
 - - For every node in the stack, we look for it's index if it's less or equal to the variable index we created an example is given bellow: `(*stack)->index <= index`
@@ -66,6 +70,15 @@ if it's true we push to b and rotate it, why ?Because with that we will put the 
 - - If the value is not the minimum, we check if the value is in that range (chunk + index) `(*stack)-> index <= range + index` if yes we just push it into b to put that value at the top of the stack or the bottom of stack a.
 - - If all those test fail, we just rotate a to check for the next value.
 - - After doing those operations we just push the remaining into the stack a by checking the max value (as we said before the max value is weather at the top/bottom of the stack) and do a push a until there is no node in b anymore.
+=======
+- We first of all divide it into chunk (we went with size / 16) for the average case but went with 30 if the size is equal to 500 (where here size is the size of the stack), we choose those number arbitrary after several test case (the document we followed suggest going for size / 11 but after changing that value to 
+our liking we noticed that with those number we had a lot of optimisation in which we then go with those number).
+- For every node in the stack, we look for it's index if it's less or equal to the variable index we created an example is given bellow: `(*stack)->index <= index`
+if it's true we push to b and rotate it, why ?Because with that we will put the minimum value into b (as if starting a new chunck) and then rotate b, to keep that value in the middle of stack b
+- If the value is not the minimum, we check if the value is in that range (chunk + index) `(*stack)-> index <= range + index` if yes we just push it into b to put that value at the top of the stack or the bottom of stack a.
+- If all those test fail, we just rotate a to check for the next value.
+- After doing those operations we just push the remaining into the stack a by checking the max value (as we said before the max value is weather at the top/bottom of the stack) and do a push a until there is no node in b anymore.
+>>>>>>> refs/remotes/origin/main
 
 ## Adaptive
 As said by the subject the Adaptive one will choose the best approach based on the disorder metric (how sorted is the list)
@@ -92,5 +105,24 @@ AI was used for the following tasks:
 - Writing core sorting logic
 - The sorting algorithms (selection sort, medium sort, complex sort)
 
-**Understanding the command :** to understand the how the command where used we relied on the document we provided in [Document](#document) and [Youtube](#youtube) sections
-in which it gave us a ton of example in how to use it.
+**Understanding the command :** to understand the how the command where used we relied on the document we provided in [Document](#document) and [Youtube](#youtube) 
+sections in which it gave us a ton of example in how to use it.
+
+# Contributions
+
+### **finorako :**
+- The core structure, like using struct instead of an array.
+- The bench_mark function that display the details (like the number of instructions, count of each instructions).
+- Error handler.
+- Argument parsing.
+- Explaining the algorithm.
+- Handled some optimisation.
+- The get_next_line (for the bonus that **maratojo** did).
+- The ft_printf function.
+### **maratojo :**
+- The split function.
+- Provided the libft
+- Handling value that exceed the range of int.
+- Sort util file and the function within it
+- Strategy handling.
+- The checker bonus.
